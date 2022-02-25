@@ -1,0 +1,8 @@
+{
+  "/movii-api/international-remittances/v1/*": {
+    "target": "http://192.168.29.81:40012",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

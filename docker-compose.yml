@@ -1,0 +1,8 @@
+# Define the services/containers to be run
+services:
+  angular:
+    hostname: localhost
+    #container_name: frontend
+    build: .
+    ports:
+      - 3300:80
